@@ -220,7 +220,7 @@ html {
 }
 
 .clouds_back {
-  background-image: url(/source/cloud_back_1.png);
+  background-image: url(/assets/cloud_back.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 1920px;
@@ -229,7 +229,7 @@ html {
 }
 
 .clouds_front {
-  background-image: url(/source/cloud_front_1.png);
+  background-image: url(/assets/cloud_front.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;
