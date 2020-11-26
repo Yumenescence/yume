@@ -1,231 +1,146 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-ul li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+/* 
 html {
   overflow: hidden;
-}
-
-.yumeblock {
-  display: block;
-  position: absolute;
-  width: 612px;
-  height: 766px;
-  left: 439px;
-  top: -10%;
-  z-index: 2;
-}
-
-.buttons_block {
-  position: absolute;
-  width: 766px;
-  height: 238px;
-  left: 1102px;
-  top: -10px;
-}
-
-.button_main {
-  position: absolute;
-  width: 238px;
-  height: 238px;
-  left: 0px;
-  top: -21px;
-}
+} */
 
 .button_join {
   position: absolute;
-  width: 696px;
-  height: 163px;
-  left: 796px;
-  top: 441px;
+  width: 484px;
+  height: 112px;
+  left: 945px;
+  top: -190px;
 
-  background: #454952;
-  border-radius: 59px;
-  z-index: 1;
-  box-shadow: 5px 5px 0px rgba(255, 255, 255, 0.75);
-  border-radius: 59px;
-}
-
-.text {
-  position: absolute;
-  font-size: 70px;
-  line-height: 34px;
-  font-family: Neucha;
-  color: #000000;
-  font-size: 36px;
-  letter-spacing: 0.14em;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  /* background: #46559f; */
+  background-color: #4b599c;
+  border-radius: 32px;
+  z-index: 2;
+  box-shadow: 5px 5px 0px #2d2d2d;
 }
 
 .text_join {
   position: absolute;
-  line-height: 10px;
-  font-family: Neucha;
+  line-height: 2.3px;
+  text-align: left;
+  font-family: "Oswald";
+  font-weight: 200;
   color: #ffffff;
-  font-size: 40px;
-  letter-spacing: 0.1em;
-  top: 35%;
-  left: 68%;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  top: 31%;
+  left: 63%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
 .text_yume {
   position: absolute;
-  font-family: Neucha;
+  font-family: Oswald;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 31px;
+  line-height: 2.377;
   letter-spacing: 0.1em;
-  top: 65%;
-  left: 70%;
+  font-weight: 200;
+  top: 67%;
+  text-align: left;
+  left: 65%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
-.image {
+.hands {
   position: absolute;
-  width: 229px;
-  height: 107px;
-  margin-top: 20%;
-  filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.25));
+  width: 104px;
+  height: 72px;
+  right: 920px;
+  top: -216px;
+  z-index: 30;
 }
 
 .image_avatar {
   position: absolute;
-  border: 4px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 99px;
-  width: 126px;
-  height: 126px;
+  width: 91px;
+  height: 91px;
   top: 50%;
-  left: 30%;
+  left: 21%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   border-radius: 99px;
 }
-.button_about {
-  /* background: #96004b7e; */
+
+.avatar {
+  background-image: url("avatar.png");
   position: absolute;
-  margin-left: 35%;
-  width: 238px;
-  height: 238px;
-  left: 0px;
-  top: -21px;
+  left: 1062px;
+  top: 347px;
+  width: 91px;
+  height: 91px;
+  z-index: 8;
 }
 
-.button_applications {
-  position: absolute;
-  margin-left: 70%;
-  width: 238px;
-  height: 238px;
-  left: 0px;
-  top: -21px;
+.buttons_block {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 60%;
+  margin-right: 2%;
+  z-index: 1;
 }
-.line {
-  position: absolute;
-  width: 64px;
-  height: 0px;
-  margin-left: 40%;
-  margin-top: 20%;
-  border: 1px solid #ffffff;
-  transform: rotate(90deg);
+
+.button {
+  display: flex;
+  width: 200px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
 }
+
+.image_clouds {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 120px;
+  filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.25));
+}
+
+.text {
+  font-family: Oswald;
+  z-index: 5;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  margin-top: 45px;
+}
+
 .clouds_block {
-  /* background: #96004b7e; */
   position: absolute;
-  width: 100%;
-  height: 73.99%;
-  top: 26.01%;
+  width: 1920px;
+  height: 416px;
+  bottom: 0%;
 }
 
 .clouds_back {
   background-image: url(/assets/cloud_back.png);
   background-repeat: no-repeat;
   position: absolute;
-  width: 1920px;
-  height: 429px;
-  margin-top: 15%;
+  width: 1283px;
+  height: 386px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.yumeblock {
+  display: block;
+  position: absolute;
+  width: 1061px;
+  height: 1321px;
+  left: 150px;
+  bottom: -450px;
+  z-index: 1;
 }
 
 .clouds_front {
@@ -234,18 +149,17 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  margin-top: 20%;
-  z-index: 1;
+  margin-top: 0%;
+  z-index: 10;
 }
 
 .fullscreen-bg {
   overflow: hidden;
-  z-index: -100;
+  z-index: 100;
   position: relative;
   height: 100%;
   width: 100%;
   margin: 0px;
-  padding-top: 50%;
 }
 
 .fullscreen-bg__video {
@@ -253,4 +167,5 @@ html {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: -50;
 }
