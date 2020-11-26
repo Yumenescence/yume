@@ -46,7 +46,7 @@
   transform: translate(-50%, -50%);
 }
 
-.image_avatar {
+.server_avatar {
   position: absolute;
   border: 2px solid #ffffff;
   border-radius: 99px;
