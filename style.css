@@ -100,7 +100,7 @@
 }
 
 .clouds_back {
-  background-image: url(assets/cloud_back.png);
+  background: url(assets/cloud_back.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 1283px;
